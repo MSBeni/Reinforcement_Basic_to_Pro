@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Procgen">
+  <component name="RunManager" selected="Python.test_universe">
     <configuration name="Procgen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Procgen" />
         <item itemvalue="Python.test_universe" />
+        <item itemvalue="Python.Procgen" />
         <item itemvalue="Python.frozen_lake" />
         <item itemvalue="Python.tensorboard_test2" />
         <item itemvalue="Python.tensorboard_test" />
@@ -192,7 +192,7 @@
       <workItem from="1585507529620" duration="2398000" />
       <workItem from="1585574120454" duration="1214000" />
       <workItem from="1585741883290" duration="1222000" />
-      <workItem from="1585930099882" duration="3089000" />
+      <workItem from="1585930099882" duration="3428000" />
     </task>
     <servers />
   </component>
@@ -214,7 +214,7 @@
     <SUITE FILE_PATH="coverage/dm_control$frozen_lake.coverage" NAME="frozen_lake Coverage Results" MODIFIED="1585070111796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$Procgen.coverage" NAME="Procgen Coverage Results" MODIFIED="1585495213218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$Bipedalwalker.coverage" NAME="Bipedalwalker Coverage Results" MODIFIED="1584968967445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$test_universe.coverage" NAME="test_universe Coverage Results" MODIFIED="1585328788274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$test_universe.coverage" NAME="test_universe Coverage Results" MODIFIED="1585946008379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$CarRacing.coverage" NAME="CarRacing Coverage Results" MODIFIED="1584968449011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$mujoco_n.coverage" NAME="mujoco_n Coverage Results" MODIFIED="1584379434759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$tensorboard_test2.coverage" NAME="tensorboard_test2 Coverage Results" MODIFIED="1584994187471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorboard_Directory" />

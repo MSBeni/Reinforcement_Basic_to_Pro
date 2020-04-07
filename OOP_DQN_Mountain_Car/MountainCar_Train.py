@@ -1,3 +1,5 @@
+# ref: https://github.com/vikasjiitk/Deep-RL-Mountain-Car
+
 import json
 import numpy as np
 from keras.models import Sequential

@@ -51,12 +51,12 @@ class MountainCar(object):
 
 		position = self.state[0]
 		# bound for position; the goal is to reach position = 0.45
-		bpright  = self.goal
+		bpright = self.goal
 
 		r = -1
 		f = False
 
-		if  position >= bpright:
+		if position >= bpright:
 			r = 100
 			f = True
 

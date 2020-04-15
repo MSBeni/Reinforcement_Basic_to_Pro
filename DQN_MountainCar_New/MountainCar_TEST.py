@@ -25,6 +25,7 @@ for i_episode in range(10):
 
         currentState=new_state
 
+
         rewardSum+=reward
         if done:
             if rewardSum > -200:

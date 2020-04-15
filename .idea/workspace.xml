@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DQN_Atatri.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_DQN_Mountain_Car/model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_DQN_Mountain_Car/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/Iterative_Policy_Evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/gridworld.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_DQN_Mountain_Car/Check_GPU_CPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_DQN_Mountain_Car/Check_GPU_CPU.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_DQN_Mountain_Car/MountainCar_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_DQN_Mountain_Car/MountainCar_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/car_saved_networks/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-65000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-65000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-65000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-66000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-66000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-66000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-67000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-67000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-67000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-68000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-68000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-68000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-69000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_saved_networks/network-dqn-69000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DQN_MountainCar_New/MountainCar_TEST.py" beforeDir="false" afterPath="$PROJECT_DIR$/DQN_MountainCar_New/MountainCar_TEST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +32,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/python_funny_required_techniques" />
       <recent name="$PROJECT_DIR$/tensorboard_Directory" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DQN_MountainCar_New" />
+      <recent name="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,29 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DQ_MountainCar">
-    <configuration name="Check_GPU_CPU" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dm_control" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP_DQN_Mountain_Car/Check_GPU_CPU.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Iterative_Policy_Evaluation">
     <configuration name="DQN_Atatri" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MountainCar_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Iterative_Policy_Evaluation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,12 +106,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP_DQN_Mountain_Car/MountainCar_Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/Iterative_Policy_Evaluation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,13 +142,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="gridworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dm_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/gridworld.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Iterative_Policy_Evaluation" />
+        <item itemvalue="Python.gridworld" />
         <item itemvalue="Python.DQ_MountainCar" />
         <item itemvalue="Python.DQN_Atatri" />
         <item itemvalue="Python.MountainCar_Train" />
-        <item itemvalue="Python.MountainCar_Test" />
-        <item itemvalue="Python.Check_GPU_CPU" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +207,7 @@
       <workItem from="1586781949573" duration="4877000" />
       <workItem from="1586792868776" duration="6528000" />
       <workItem from="1586873084871" duration="615000" />
-      <workItem from="1586955573007" duration="609000" />
+      <workItem from="1586955573007" duration="14117000" />
     </task>
     <servers />
   </component>
@@ -243,6 +227,17 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dm_control$numpy_clip.coverage" NAME="numpy_clip Coverage Results" MODIFIED="1585949009173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
     <SUITE FILE_PATH="coverage/dm_control$frozen_lake.coverage" NAME="frozen_lake Coverage Results" MODIFIED="1585070111796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -252,8 +247,10 @@
     <SUITE FILE_PATH="coverage/dm_control$MountainCar_Train.coverage" NAME="MountainCar_Train Coverage Results" MODIFIED="1586797090558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     <SUITE FILE_PATH="coverage/dm_control$python_enumerate.coverage" NAME="python_enumerate Coverage Results" MODIFIED="1586293361940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
     <SUITE FILE_PATH="coverage/dm_control$DQ_MountainCar.coverage" NAME="DQ_MountainCar Coverage Results" MODIFIED="1586809912627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$gridworld.coverage" NAME="gridworld Coverage Results" MODIFIED="1586980589476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$mujoco_n.coverage" NAME="mujoco_n Coverage Results" MODIFIED="1584379434759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$tensorboard_test2.coverage" NAME="tensorboard_test2 Coverage Results" MODIFIED="1584994187471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorboard_Directory" />
+    <SUITE FILE_PATH="coverage/dm_control$Iterative_Policy_Evaluation.coverage" NAME="Iterative_Policy_Evaluation Coverage Results" MODIFIED="1586986201712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$flashgames_NeonRace_v0.coverage" NAME="flashgames_NeonRace_v0 Coverage Results" MODIFIED="1584970008624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$tensorboard_test.coverage" NAME="tensorboard_test Coverage Results" MODIFIED="1584992962151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$DQN_MountainCar.coverage" NAME="DQN_MountainCar Coverage Results" MODIFIED="1586225623496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -85,5 +85,69 @@ def standard_grid():
     g.set(rewards, actions)
     return g
 
+def grid_world():
+    grid = Grid(3, 4, [2, 0])
+    rewards = {(0, 0): 0,
+               (0, 1): 0,
+               (0, 2): 0,
+               (0, 3): 1,
+               (1, 0): 0,
+               (1, 2): 0,
+               (1, 3): -1,
+               (2, 0): 0,
+               (2, 1): 0,
+               (2, 2): 0,
+               (2, 3): 0}
+
+    actions = {(0, 0): ['R', 'D'],
+               (0, 1): ['R', 'L'],
+               (0, 2): ['R', 'L', 'D'],
+               (1, 0): ['U', 'D'],
+               (1, 2): ['U', 'R', 'D'],
+               (2, 0): ['U', 'R'],
+               (2, 1): ['L', 'R'],
+               (2, 2): ['L', 'R', 'U'],
+               (2, 3): ['L', 'U']}
+
+    grid.set(rewards, actions)
+    return grid
+
+def negative_grid(step_cost = -0.1):
+    grid = grid_world()
+    grid.rewards.update({(0, 0): step_cost,
+                         (0, 1): step_cost,
+                         (0, 2): step_cost,
+                         (1, 0): step_cost,
+                         (1, 2): step_cost,
+                         (2, 0): step_cost,
+                         (2, 1): step_cost,
+                         (2, 2): step_cost,
+                         (2, 3): step_cost})
+
+    return grid
+
+
+def print_values(V, g):
+    for i in range(g.width):
+        print("------------------------------------")
+        for j in range(g.height):
+            v = V.get((i,j), 0)
+            if v >= 0:
+                print(" |", "%.2f" %v, end="")
+            else:
+                print("|", "%.2f" %v, end="")
+        print("  |  ")
+
+
+def print_policy(P, g):
+    for i in range(g.width):
+        print("--------------------------------")
+        for j in range(g.height):
+            a = P.get((i, j), ' ')
+            print("  |  ", a, end="")
+
+        print("  |  ")
+
+
 def paly_game(agent, env):
     pass

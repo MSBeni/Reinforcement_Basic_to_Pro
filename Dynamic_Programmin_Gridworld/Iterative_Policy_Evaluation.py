@@ -6,23 +6,24 @@ Small_Enough = 10e-4  # threshold for convergence
 
 def print_values(V, g):
     for i in range(g.width):
-        print("--------------------")
+        print("------------------------------------")
         for j in range(g.height):
             v = V.get((i,j), 0)
             if v >= 0:
-                print("|", v)
+                print(" |", "%.2f" %v, end="")
             else:
-                print("|", v)
-        print("")
+                print("|", "%.2f" %v, end="")
+        print("  |  ")
 
 
 def print_policy(P, g):
     for i in range(g.width):
-        print("--------------------")
+        print("--------------------------------")
         for j in range(g.height):
-            a = P.get((i,j), ' ')
-            print("  |  ",a)
-        print("")
+            a = P.get((i, j), ' ')
+            print("  |  ", a, end="")
+
+        print("  |  ")
 
 #######################################################
 

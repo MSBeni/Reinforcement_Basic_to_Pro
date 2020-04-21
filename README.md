@@ -1,4 +1,4 @@
-# RL_single_Multi_Agent_codes
+# RL_single_Multi_Agent_Algorithms_and_Environments
 A repository to check for some funny algorithms in RL
 
 Checking for basic to advanced RL algorithms and useful platform

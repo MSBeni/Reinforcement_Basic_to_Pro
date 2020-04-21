@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Model_Approximation_GridWorld/MonteCarlo_Approx_Pred.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_Control.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_Control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_GridWorld.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_GridWorld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_epsilon_greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_epsilon_greedy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarlo_Gridworld/Random_Monte_Carlo.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/Random_Monte_Carlo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemporalDifference_TD_GridWorld/Q-Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/TemporalDifference_TD_GridWorld/Q-Learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemporalDifference_TD_GridWorld/sarsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/TemporalDifference_TD_GridWorld/sarsa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model_Approximation_GridWorld/MonteCarlo_Approx_Pred.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model_Approximation_GridWorld/MonteCarlo_Approx_Pred.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Q-Learning">
-    <configuration name="Monte_Carlo_Control" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MonteCarlo_Approx_Pred">
+    <configuration name="MonteCarlo_Approx_Pred" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,12 +61,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonteCarlo_Gridworld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model_Approximation_GridWorld" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_Control.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model_Approximation_GridWorld/MonteCarlo_Approx_Pred.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MonteCarlo_Approx_Pred" />
         <item itemvalue="Python.Q-Learning" />
         <item itemvalue="Python.sarsa" />
         <item itemvalue="Python.TD(0)_Prediction" />
         <item itemvalue="Python.Monte_Carlo_epsilon_greedy" />
-        <item itemvalue="Python.Monte_Carlo_Control" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +210,7 @@
       <workItem from="1587036572283" duration="12932000" />
       <workItem from="1587125522229" duration="12202000" />
       <workItem from="1587388411433" duration="10087000" />
-      <workItem from="1587469392654" duration="8180000" />
+      <workItem from="1587469392654" duration="10957000" />
     </task>
     <servers />
   </component>
@@ -258,6 +252,7 @@
     <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_Control.coverage" NAME="Monte_Carlo_Control Coverage Results" MODIFIED="1587153503990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$python_enumerate.coverage" NAME="python_enumerate Coverage Results" MODIFIED="1586293361940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
     <SUITE FILE_PATH="coverage/dm_control$gridworld.coverage" NAME="gridworld Coverage Results" MODIFIED="1586980589476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$MonteCarlo_Approx_Pred.coverage" NAME="MonteCarlo_Approx_Pred Coverage Results" MODIFIED="1587503306982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$mujoco_n.coverage" NAME="mujoco_n Coverage Results" MODIFIED="1584379434759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$Iterative_Policy_Evaluation.coverage" NAME="Iterative_Policy_Evaluation Coverage Results" MODIFIED="1587038520877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_GridWorld.coverage" NAME="Monte_Carlo_GridWorld Coverage Results" MODIFIED="1587138957361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />

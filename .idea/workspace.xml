@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/q-learning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/random_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/random_search_SaveVideo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/saved_videos/openaigym.video.0.12533.video009000.meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/saved_videos/openaigym.video.0.12533.video009000.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/tensorflow_SimpleCheckforRL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Policy_Gradient/PolicyGradient_TF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Policy_Gradient/q_learning_beans.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.random_search_SaveVideo">
+  <component name="RunManager" selected="Python.PolicyGradient_TF">
     <configuration name="Approx_SemiGradient_SARSA_Control" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Approx_SemiGradient_td0_prediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PolicyGradient_TF" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model_Approximation_GridWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Policy_Gradient" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model_Approximation_GridWorld/Approx_SemiGradient_td0_prediction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Policy_Gradient/PolicyGradient_TF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PolicyGradient_TF" />
         <item itemvalue="Python.random_search_SaveVideo" />
         <item itemvalue="Python.random_search" />
         <item itemvalue="Python.Approx_SemiGradient_SARSA_Control" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Approx_SemiGradient_td0_prediction" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +214,8 @@
       <workItem from="1587469392654" duration="11949000" />
       <workItem from="1587555840398" duration="5354000" />
       <workItem from="1587569040889" duration="11374000" />
-      <workItem from="1587642285078" duration="6375000" />
+      <workItem from="1587642285078" duration="14250000" />
+      <workItem from="1587735260285" duration="5812000" />
     </task>
     <servers />
   </component>
@@ -265,6 +262,7 @@
     <SUITE FILE_PATH="coverage/dm_control$MonteCarlo_Approx_Pred.coverage" NAME="MonteCarlo_Approx_Pred Coverage Results" MODIFIED="1587504222290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$mujoco_n.coverage" NAME="mujoco_n Coverage Results" MODIFIED="1584379434759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$Iterative_Policy_Evaluation.coverage" NAME="Iterative_Policy_Evaluation Coverage Results" MODIFIED="1587038520877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$PolicyGradient_TF.coverage" NAME="PolicyGradient_TF Coverage Results" MODIFIED="1587740432104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Policy_Gradient" />
     <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_GridWorld.coverage" NAME="Monte_Carlo_GridWorld Coverage Results" MODIFIED="1587138957361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$CarRacing.coverage" NAME="CarRacing Coverage Results" MODIFIED="1584968449011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$windy_policy_iteration.coverage" NAME="windy_policy_iteration Coverage Results" MODIFIED="1587052775508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />

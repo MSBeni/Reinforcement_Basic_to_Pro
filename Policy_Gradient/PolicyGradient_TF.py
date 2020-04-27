@@ -9,7 +9,7 @@ import os
 import sys
 import datetime
 from gym import wrappers
-from Policy_Gradient.q_learning_beans import plot_running_avg
+from Policy_Gradient.q_learning_bins import plot_running_avg
 
 
 class HiddenLayer:
@@ -76,8 +76,8 @@ class PolicyModel:
     # self.selected_probs = selected_probs
     cost = -tf.reduce_sum(self.advantages * selected_probs)
     # self.cost = cost
-    # self.train_op = tf.train.AdamOptimizer(1e-1).minimize(cost)
-    self.train_op = tf.train.AdagradOptimizer(1e-1).minimize(cost)
+    self.train_op = tf.train.AdamOptimizer(1e-1).minimize(cost)
+    # self.train_op = tf.train.AdagradOptimizer(1e-1).minimize(cost)
     # self.train_op = tf.train.MomentumOptimizer(1e-4, momentum=0.9).minimize(cost)
     # self.train_op = tf.train.GradientDescentOptimizer(1e-4).minimize(cost)
 
@@ -145,14 +145,6 @@ class PolicyModel:
 #         reduction_indices=[1]
 #       )
 #     )
-
-
-
-
-
-
-
-
 
 
 

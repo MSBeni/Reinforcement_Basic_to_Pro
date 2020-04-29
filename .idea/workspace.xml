@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DQN-Cartpole/dqn_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DQN_Atari_breakout/DQN_tf_breakout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DQN_Atari_breakout/testImage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Policy_Gradient/PolicyGradient_TF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Policy_Gradient/PolicyGradient_TF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Policy_Gradient/q_learning_beans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Policy_Gradient/q_learning_bins.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +53,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dqn_tf">
-    <configuration name="Approx_SemiGradient_SARSA_Control" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DQN_tf_breakout">
+    <configuration name="CarRacing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,12 +62,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model_Approximation_GridWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model_Approximation_GridWorld/Approx_SemiGradient_SARSA_Control.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CarRacing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DQN_tf_breakout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dm_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN_Atari_breakout" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN_Atari_breakout/DQN_tf_breakout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,34 +150,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN_Atari_breakout" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/random_search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="random_search_SaveVideo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dm_control" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs/random_search_SaveVideo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN_Atari_breakout/testImage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DQN_tf_breakout" />
+        <item itemvalue="Python.testImage" />
+        <item itemvalue="Python.CarRacing" />
         <item itemvalue="Python.dqn_tf" />
         <item itemvalue="Python.PolicyGradient_TF" />
-        <item itemvalue="Python.random_search_SaveVideo" />
-        <item itemvalue="Python.random_search" />
-        <item itemvalue="Python.Approx_SemiGradient_SARSA_Control" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +217,8 @@
       <workItem from="1587642285078" duration="14250000" />
       <workItem from="1587735260285" duration="7568000" />
       <workItem from="1587908724661" duration="807000" />
-      <workItem from="1587990665305" duration="10939000" />
+      <workItem from="1587990665305" duration="13326000" />
+      <workItem from="1588075419946" duration="6292000" />
     </task>
     <servers />
   </component>
@@ -267,13 +267,14 @@
     <SUITE FILE_PATH="coverage/dm_control$Iterative_Policy_Evaluation.coverage" NAME="Iterative_Policy_Evaluation Coverage Results" MODIFIED="1587038520877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$PolicyGradient_TF.coverage" NAME="PolicyGradient_TF Coverage Results" MODIFIED="1587743938836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Policy_Gradient" />
     <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_GridWorld.coverage" NAME="Monte_Carlo_GridWorld Coverage Results" MODIFIED="1587138957361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$CarRacing.coverage" NAME="CarRacing Coverage Results" MODIFIED="1584968449011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$dqn_tf.coverage" NAME="dqn_tf Coverage Results" MODIFIED="1588014988194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN-Cartpole" />
+    <SUITE FILE_PATH="coverage/dm_control$dqn_tf.coverage" NAME="dqn_tf Coverage Results" MODIFIED="1588016107772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN-Cartpole" />
+    <SUITE FILE_PATH="coverage/dm_control$CarRacing.coverage" NAME="CarRacing Coverage Results" MODIFIED="1588027233549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$windy_policy_iteration.coverage" NAME="windy_policy_iteration Coverage Results" MODIFIED="1587052775508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$Check_GPU_CPU.coverage" NAME="Check_GPU_CPU Coverage Results" MODIFIED="1586794442853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     <SUITE FILE_PATH="coverage/dm_control$random_search_SaveVideo.coverage" NAME="random_search_SaveVideo Coverage Results" MODIFIED="1587646359253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
     <SUITE FILE_PATH="coverage/dm_control$MountainCar_Train.coverage" NAME="MountainCar_Train Coverage Results" MODIFIED="1586797090558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     <SUITE FILE_PATH="coverage/dm_control$DQ_MountainCar.coverage" NAME="DQ_MountainCar Coverage Results" MODIFIED="1586809912627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$DQN_tf_breakout.coverage" NAME="DQN_tf_breakout Coverage Results" MODIFIED="1588088410843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN_Atari_breakout" />
     <SUITE FILE_PATH="coverage/dm_control$Random_Monte_Carlo.coverage" NAME="Random_Monte_Carlo Coverage Results" MODIFIED="1587143226849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$value_iteration.coverage" NAME="value_iteration Coverage Results" MODIFIED="1587057129218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$tensorboard_test2.coverage" NAME="tensorboard_test2 Coverage Results" MODIFIED="1584994187471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorboard_Directory" />
@@ -281,6 +282,7 @@
     <SUITE FILE_PATH="coverage/dm_control$tensorboard_test.coverage" NAME="tensorboard_test Coverage Results" MODIFIED="1584992962151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$DQN_MountainCar.coverage" NAME="DQN_MountainCar Coverage Results" MODIFIED="1586225623496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$TD_0__Prediction.coverage" NAME="TD(0)_Prediction Coverage Results" MODIFIED="1587401868621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
+    <SUITE FILE_PATH="coverage/dm_control$testImage.coverage" NAME="testImage Coverage Results" MODIFIED="1588027270907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN_Atari_breakout" />
     <SUITE FILE_PATH="coverage/dm_control$test.coverage" NAME="test Coverage Results" MODIFIED="1587585793315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$MountainCar_Test.coverage" NAME="MountainCar_Test Coverage Results" MODIFIED="1586796983923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     <SUITE FILE_PATH="coverage/dm_control$test_universe.coverage" NAME="test_universe Coverage Results" MODIFIED="1586790129422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

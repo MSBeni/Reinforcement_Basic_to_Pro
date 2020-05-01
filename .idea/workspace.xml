@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A3C_Atari_Breakout/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A3C_Atari_Breakout/nets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A3C_Atari_Breakout/thread_exp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A3C_Atari_Breakout/worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deep_Neural_Net_Review/tensorflow-without-a-phd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,7 +220,8 @@
       <workItem from="1587990665305" duration="13326000" />
       <workItem from="1588075419946" duration="7766000" />
       <workItem from="1588165184165" duration="617000" />
-      <workItem from="1588253957298" duration="14298000" />
+      <workItem from="1588253957298" duration="15358000" />
+      <workItem from="1588333727912" duration="3531000" />
     </task>
     <servers />
   </component>

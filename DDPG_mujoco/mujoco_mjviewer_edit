@@ -1,0 +1,40 @@
+diff --git a/mujoco_py/mjviewer.py b/mujoco_py/mjviewer.py
+index 1c4e683..fd927dc 100644
+--- a/mujoco_py/mjviewer.py
++++ b/mujoco_py/mjviewer.py
+@@ -7,6 +7,7 @@ import copy
+ from multiprocessing import Process
+ from mujoco_py.utils import rec_copy, rec_assign
+ import imageio
++import OpenGL.GL as gl
+
+
+ class MjViewerBasic(cymj.MjRenderContextWindow):
+@@ -159,6 +160,27 @@ class MjViewer(MjViewerBasic):
+         self._hide_overlay = False  # hide the entire overlay.
+         self._user_overlay = {}
+
++    def get_dimensions(self):
++        """
++        returns a tuple (width, height)
++        """
++        if self.window:
++            return glfw.get_framebuffer_size(self.window)
++        return (self.init_width, self.init_height)
++
++    def get_image(self):
++        """
++        returns a tuple (data, width, height), where:
++        - data is a string with raw bytes representing the pixels in 3-channel RGB
++          (i.e. every three bytes = 1 pixel)
++        - width is the width of the image
++        - height is the height of the image
++        """
++        width, height = self.get_dimensions()
++        gl.glReadBuffer(gl.GL_BACK)
++        data = gl.glReadPixels(0, 0, width, height, gl.GL_RGB, gl.GL_UNSIGNED_BYTE)
++        return (data, width, height)
++
+     def render(self):
+         """
+         Render the current simulation state to the screen or off-screen buffer.

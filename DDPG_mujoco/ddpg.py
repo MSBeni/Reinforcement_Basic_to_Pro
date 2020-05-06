@@ -3,6 +3,7 @@ import tensorflow as tf
 import gym
 import matplotlib.pyplot as plt
 from datetime import datetime
+from gym.envs.mujoco import mujoco_env
 
 # simple feedforward neural net
 def ANN(x, layer_sizes, hidden_activation=tf.nn.relu, output_activation=None):
@@ -254,7 +255,7 @@ def ddpg(
             mul, _, _ = sess.run([mu_loss, mu_train_op, target_update], feed_dict)
             mu_losses.append(mul)
 
-        print("Episode: ", i_episode+1, "Return: ", episode_return, "episode_length: ", episode_length)
+        print("Episode:", i_episode+1, "  Return:", episode_return, "  episode_length:", episode_length)
         returns.append(episode_return)
 
         # Test the agent
@@ -298,8 +299,8 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--env', type=str, default='HalfCheetah-v2')
-    parser.add_argument('--env', type=str, default='Pendulum-v0')
+    parser.add_argument('--env', type=str, default='HalfCheetah-v2')
+    # parser.add_argument('--env', type=str, default='Pendulum-v0')
     parser.add_argument('--hidden_layer_sizes', type=int, default=300)
     parser.add_argument('--num_layers', type=int, default=1)
     parser.add_argument('--gamma', type=float, default=0.99)

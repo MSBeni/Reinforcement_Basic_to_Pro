@@ -5,10 +5,14 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # simple feedforward neural net
-def ANN(x, layer_sizes, hidden_activation=tf.nn.trlu, output_activation=None):
-    for h in layer_sizes[:-1]:
-        x = tf.layers.dense(x, units=h, activation=hidden_activation)
-    return tf.layers.dense(x, units=layer_sizes, activation=output_activation)
+def ANN(x, layer_sizes, hidden_activation=tf.nn.relu, output_activation=None):
+  for h in layer_sizes[:-1]:
+    x = tf.layers.dense(x, units=h, activation=hidden_activation)
+  return tf.layers.dense(x, units=layer_sizes[-1], activation=output_activation)
+# def ANN(x, layer_sizes, hidden_activation=tf.nn.relu, output_activation=None):
+#     for h in layer_sizes[:-1]:
+#         x = tf.layers.dense(x, units=h, activation=hidden_activation)
+#     return tf.layers.dense(x, units=layer_sizes, activation=output_activation)
 
 # get all variables within a scope
 def get_vars(scope):
@@ -163,7 +167,7 @@ def ddpg(
     )
 
 
-    sess = tf.session()
+    sess = tf.Session()
     sess.run(tf.global_variables_initializer())
     sess.run(target_init)
 
@@ -177,7 +181,7 @@ def ddpg(
         t0 = datetime.now()
         n_steps = 0
         for j in range(num_episides):
-            s, episode_return, episode_length = test_env.reset(), 0, 0
+            s, episode_return, episode_length, d = test_env.reset(), 0, 0, False
             while not (d or (episode_length == max_episode_length)):
                 # Take deterministic actions at test time (noise_scale=0)
                 test_env.render()
@@ -196,7 +200,7 @@ def ddpg(
     for i_episode in range(num_train_episodes):
 
         # reset env
-        s, episode_return, episode_length = env.reset(), 0, 0
+        s, episode_return, episode_length, d = env.reset(), 0, 0, False
 
         while not (d or (episode_length == max_episode_length)):
             # For the first `start_steps` steps, use randomly sampled actions

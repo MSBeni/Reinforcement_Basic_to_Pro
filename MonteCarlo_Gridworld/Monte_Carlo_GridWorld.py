@@ -82,7 +82,7 @@ if __name__ == "__main__":
                 returns[s].append(G)
                 V[s] = np.mean(returns[s])
                 seen_states.add(s)
-
+    #
     print("values: ")
     print_values(V, grid)
     print("policy: ")

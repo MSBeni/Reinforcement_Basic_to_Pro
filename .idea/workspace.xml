@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dm_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dm_control.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDPG_mujoco/ddpg_monitor/openaigym.video.0.50501.video000001.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDPG_mujoco/ddpg_monitor/openaigym.video.0.50501.video000008.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDPG_mujoco/ddpg_monitor/openaigym.video.0.50501.video000027.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/gridworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/gridworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_GridWorld.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_GridWorld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_funny_required_techniques/depickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_funny_required_techniques/depickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_funny_required_techniques/pickle_tst.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_funny_required_techniques/pickle_tst.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +30,14 @@
   </component>
   <component name="ProjectId" id="1ZBAOX0zoRcxKejdaRGE2ZDXMGo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bachup_dm_control" />
+    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs/dm_control2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -39,20 +51,8 @@
       <recent name="$PROJECT_DIR$/tensorboard_Directory" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.mujoco_n">
-    <configuration name="DQN_tf_breakout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Monte_Carlo_GridWorld">
+    <configuration name="Monte_Carlo_GridWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,12 +60,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN_Atari_breakout" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonteCarlo_Gridworld" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN_Atari_breakout/DQN_tf_breakout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_GridWorld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ddpg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,12 +82,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A3C_Atari_Breakout" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DDPG_mujoco" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A3C_Atari_Breakout/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DDPG_mujoco/ddpg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mujoco_n" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gridworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,12 +104,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mujoco_n.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/gridworld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_universe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,12 +126,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A2C_Atari" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_universe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A2C_Atari/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="thread_exp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,12 +148,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A3C_Atari_Breakout" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonteCarlo_Gridworld" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A3C_Atari_Breakout/thread_exp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonteCarlo_Gridworld/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mujoco_n" />
-        <item itemvalue="Python.test_universe" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.thread_exp" />
-        <item itemvalue="Python.DQN_tf_breakout" />
+        <item itemvalue="Python.Monte_Carlo_GridWorld" />
+        <item itemvalue="Python.gridworld" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ddpg" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -220,24 +220,59 @@
       <workItem from="1588165184165" duration="617000" />
       <workItem from="1588253957298" duration="15358000" />
       <workItem from="1588333727912" duration="3531000" />
+      <workItem from="1588441244219" duration="599000" />
+      <workItem from="1588514135776" duration="6265000" />
+      <workItem from="1588595270561" duration="895000" />
+      <workItem from="1588764410170" duration="26417000" />
+      <workItem from="1588852130693" duration="5889000" />
+      <workItem from="1588950195006" duration="599000" />
+      <workItem from="1589038496196" duration="599000" />
+      <workItem from="1589116230481" duration="1202000" />
+      <workItem from="1589200059953" duration="599000" />
+      <workItem from="1589281958971" duration="677000" />
+      <workItem from="1589376030297" duration="599000" />
+      <workItem from="1589462149342" duration="599000" />
+      <workItem from="1589546486383" duration="599000" />
+      <workItem from="1589633336624" duration="599000" />
+      <workItem from="1589719418029" duration="599000" />
+      <workItem from="1589802969763" duration="599000" />
+      <workItem from="1589890056889" duration="599000" />
+      <workItem from="1589976078979" duration="1248000" />
+      <workItem from="1590065146553" duration="599000" />
+      <workItem from="1590143772416" duration="599000" />
+      <workItem from="1590325030419" duration="599000" />
+      <workItem from="1590413492859" duration="599000" />
+      <workItem from="1590495627341" duration="599000" />
+      <workItem from="1590579272805" duration="599000" />
+      <workItem from="1590668068816" duration="1199000" />
+      <workItem from="1590750478084" duration="3445000" />
+      <workItem from="1590855243016" duration="590000" />
+      <workItem from="1590944897103" duration="599000" />
+      <workItem from="1591011712916" duration="599000" />
+      <workItem from="1591098267487" duration="599000" />
+      <workItem from="1591189081970" duration="599000" />
+      <workItem from="1591277660383" duration="599000" />
+      <workItem from="1591360722553" duration="599000" />
+      <workItem from="1591568615480" duration="599000" />
+      <workItem from="1591616867247" duration="599000" />
+      <workItem from="1591790339836" duration="1206000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -251,46 +286,50 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dm_control$numpy_clip.coverage" NAME="numpy_clip Coverage Results" MODIFIED="1585949009173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
-    <SUITE FILE_PATH="coverage/dm_control$policy_iteration.coverage" NAME="policy_iteration Coverage Results" MODIFIED="1587047130262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$frozen_lake.coverage" NAME="frozen_lake Coverage Results" MODIFIED="1585070111796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_epsilon_greedy.coverage" NAME="Monte_Carlo_epsilon_greedy Coverage Results" MODIFIED="1587394309689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$Approx_SemiGradient_SARSA_Control.coverage" NAME="Approx_SemiGradient_SARSA_Control Coverage Results" MODIFIED="1587586970153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$Q_Learning.coverage" NAME="Q-Learning Coverage Results" MODIFIED="1587478885926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
-    <SUITE FILE_PATH="coverage/dm_control$Procgen.coverage" NAME="Procgen Coverage Results" MODIFIED="1585495213218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$Bipedalwalker.coverage" NAME="Bipedalwalker Coverage Results" MODIFIED="1584968967445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$Approx_SemiGradient_td0_prediction.coverage" NAME="Approx_SemiGradient_td0_prediction Coverage Results" MODIFIED="1587567231095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
-    <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_Control.coverage" NAME="Monte_Carlo_Control Coverage Results" MODIFIED="1587153503990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$python_enumerate.coverage" NAME="python_enumerate Coverage Results" MODIFIED="1586293361940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
-    <SUITE FILE_PATH="coverage/dm_control$gridworld.coverage" NAME="gridworld Coverage Results" MODIFIED="1586980589476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$MonteCarlo_Approx_Pred.coverage" NAME="MonteCarlo_Approx_Pred Coverage Results" MODIFIED="1587504222290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
-    <SUITE FILE_PATH="coverage/dm_control$mujoco_n.coverage" NAME="mujoco_n Coverage Results" MODIFIED="1588374209234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$Iterative_Policy_Evaluation.coverage" NAME="Iterative_Policy_Evaluation Coverage Results" MODIFIED="1587038520877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$thread_exp.coverage" NAME="thread_exp Coverage Results" MODIFIED="1588256647637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A3C_Atari_Breakout" />
-    <SUITE FILE_PATH="coverage/dm_control$PolicyGradient_TF.coverage" NAME="PolicyGradient_TF Coverage Results" MODIFIED="1587743938836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Policy_Gradient" />
-    <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_GridWorld.coverage" NAME="Monte_Carlo_GridWorld Coverage Results" MODIFIED="1587138957361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$dqn_tf.coverage" NAME="dqn_tf Coverage Results" MODIFIED="1588016107772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN-Cartpole" />
+    <SUITE FILE_PATH="coverage/dm_control$numpy_clip.coverage" NAME="numpy_clip Coverage Results" MODIFIED="1585949009173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
+    <SUITE FILE_PATH="coverage/dm_control$ddpg.coverage" NAME="ddpg Coverage Results" MODIFIED="1588787848939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DDPG_mujoco" />
+    <SUITE FILE_PATH="coverage/dm_control$DQN_tf_breakout.coverage" NAME="DQN_tf_breakout Coverage Results" MODIFIED="1588088410843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN_Atari_breakout" />
+    <SUITE FILE_PATH="coverage/dm_control$value_iteration.coverage" NAME="value_iteration Coverage Results" MODIFIED="1587057129218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$test.coverage" NAME="test Coverage Results" MODIFIED="1590758589175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$DQN_Atatri.coverage" NAME="DQN_Atatri Coverage Results" MODIFIED="1586798546785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm_control$CarRacing.coverage" NAME="CarRacing Coverage Results" MODIFIED="1588027233549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$windy_policy_iteration.coverage" NAME="windy_policy_iteration Coverage Results" MODIFIED="1587052775508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$DQN_MountainCar.coverage" NAME="DQN_MountainCar Coverage Results" MODIFIED="1586225623496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$test_universe.coverage" NAME="test_universe Coverage Results" MODIFIED="1588374033093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$flashgames_NeonRace_v0.coverage" NAME="flashgames_NeonRace_v0 Coverage Results" MODIFIED="1584970008624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$Bipedalwalker.coverage" NAME="Bipedalwalker Coverage Results" MODIFIED="1584968967445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$mujoco_n.coverage" NAME="mujoco_n Coverage Results" MODIFIED="1588374992966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$thread_exp.coverage" NAME="thread_exp Coverage Results" MODIFIED="1588256647637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A3C_Atari_Breakout" />
+    <SUITE FILE_PATH="coverage/dm_control$pickle_tst.coverage" NAME="pickle_tst Coverage Results" MODIFIED="1588524450267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
+    <SUITE FILE_PATH="coverage/dm_control$tensorboard_test.coverage" NAME="tensorboard_test Coverage Results" MODIFIED="1584992962151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$policy_iteration.coverage" NAME="policy_iteration Coverage Results" MODIFIED="1587047130262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$Approx_SemiGradient_td0_prediction.coverage" NAME="Approx_SemiGradient_td0_prediction Coverage Results" MODIFIED="1587567231095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
+    <SUITE FILE_PATH="coverage/dm_control$Iterative_Policy_Evaluation.coverage" NAME="Iterative_Policy_Evaluation Coverage Results" MODIFIED="1587038520877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$random_search.coverage" NAME="random_search Coverage Results" MODIFIED="1587645274201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
+    <SUITE FILE_PATH="coverage/dm_control$PolicyGradient_TF.coverage" NAME="PolicyGradient_TF Coverage Results" MODIFIED="1587743938836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Policy_Gradient" />
+    <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_GridWorld.coverage" NAME="Monte_Carlo_GridWorld Coverage Results" MODIFIED="1590759351326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$Check_GPU_CPU.coverage" NAME="Check_GPU_CPU Coverage Results" MODIFIED="1586794442853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
-    <SUITE FILE_PATH="coverage/dm_control$random_search_SaveVideo.coverage" NAME="random_search_SaveVideo Coverage Results" MODIFIED="1587646359253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
     <SUITE FILE_PATH="coverage/dm_control$MountainCar_Train.coverage" NAME="MountainCar_Train Coverage Results" MODIFIED="1586797090558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     <SUITE FILE_PATH="coverage/dm_control$DQ_MountainCar.coverage" NAME="DQ_MountainCar Coverage Results" MODIFIED="1586809912627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$DQN_tf_breakout.coverage" NAME="DQN_tf_breakout Coverage Results" MODIFIED="1588088410843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN_Atari_breakout" />
-    <SUITE FILE_PATH="coverage/dm_control$Random_Monte_Carlo.coverage" NAME="Random_Monte_Carlo Coverage Results" MODIFIED="1587143226849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$value_iteration.coverage" NAME="value_iteration Coverage Results" MODIFIED="1587057129218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$tensorboard_test2.coverage" NAME="tensorboard_test2 Coverage Results" MODIFIED="1584994187471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorboard_Directory" />
-    <SUITE FILE_PATH="coverage/dm_control$flashgames_NeonRace_v0.coverage" NAME="flashgames_NeonRace_v0 Coverage Results" MODIFIED="1584970008624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$tensorboard_test.coverage" NAME="tensorboard_test Coverage Results" MODIFIED="1584992962151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$DQN_MountainCar.coverage" NAME="DQN_MountainCar Coverage Results" MODIFIED="1586225623496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$MonteCarlo_Approx_Pred.coverage" NAME="MonteCarlo_Approx_Pred Coverage Results" MODIFIED="1587504222290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
+    <SUITE FILE_PATH="coverage/dm_control$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1588537019991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A2C_Atari" />
+    <SUITE FILE_PATH="coverage/dm_control$Approx_SemiGradient_SARSA_Control.coverage" NAME="Approx_SemiGradient_SARSA_Control Coverage Results" MODIFIED="1587586970153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
+    <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_Control.coverage" NAME="Monte_Carlo_Control Coverage Results" MODIFIED="1587153503990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$sarsa.coverage" NAME="sarsa Coverage Results" MODIFIED="1587475812164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
+    <SUITE FILE_PATH="coverage/dm_control$gridworld.coverage" NAME="gridworld Coverage Results" MODIFIED="1590758673062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$dqn_tf.coverage" NAME="dqn_tf Coverage Results" MODIFIED="1588016107772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN-Cartpole" />
+    <SUITE FILE_PATH="coverage/dm_control$depickle.coverage" NAME="depickle Coverage Results" MODIFIED="1588524797138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
+    <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_epsilon_greedy.coverage" NAME="Monte_Carlo_epsilon_greedy Coverage Results" MODIFIED="1587394309689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$TD_0__Prediction.coverage" NAME="TD(0)_Prediction Coverage Results" MODIFIED="1587401868621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$testImage.coverage" NAME="testImage Coverage Results" MODIFIED="1588027270907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN_Atari_breakout" />
-    <SUITE FILE_PATH="coverage/dm_control$test.coverage" NAME="test Coverage Results" MODIFIED="1587585793315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
-    <SUITE FILE_PATH="coverage/dm_control$MountainCar_Test.coverage" NAME="MountainCar_Test Coverage Results" MODIFIED="1586796983923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
-    <SUITE FILE_PATH="coverage/dm_control$random_search.coverage" NAME="random_search Coverage Results" MODIFIED="1587645274201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
-    <SUITE FILE_PATH="coverage/dm_control$test_universe.coverage" NAME="test_universe Coverage Results" MODIFIED="1588374033093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dm_control$sarsa.coverage" NAME="sarsa Coverage Results" MODIFIED="1587475812164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
+    <SUITE FILE_PATH="coverage/dm_control$windy_policy_iteration.coverage" NAME="windy_policy_iteration Coverage Results" MODIFIED="1587052775508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$python_enumerate.coverage" NAME="python_enumerate Coverage Results" MODIFIED="1586293361940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
+    <SUITE FILE_PATH="coverage/dm_control$random_search_SaveVideo.coverage" NAME="random_search_SaveVideo Coverage Results" MODIFIED="1587646359253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
+    <SUITE FILE_PATH="coverage/dm_control$Random_Monte_Carlo.coverage" NAME="Random_Monte_Carlo Coverage Results" MODIFIED="1587143226849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$main.coverage" NAME="main Coverage Results" MODIFIED="1588277037769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A3C_Atari_Breakout" />
-    <SUITE FILE_PATH="coverage/dm_control$DQN_Atatri.coverage" NAME="DQN_Atatri Coverage Results" MODIFIED="1586798546785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$Procgen.coverage" NAME="Procgen Coverage Results" MODIFIED="1585495213218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dm_control$MountainCar_Test.coverage" NAME="MountainCar_Test Coverage Results" MODIFIED="1586796983923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
+    <SUITE FILE_PATH="coverage/dm_control$frozen_lake.coverage" NAME="frozen_lake Coverage Results" MODIFIED="1585070111796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

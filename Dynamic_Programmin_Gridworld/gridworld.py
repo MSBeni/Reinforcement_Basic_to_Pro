@@ -131,7 +131,7 @@ def print_values(V, g):
     for i in range(g.width):
         print("------------------------------------")
         for j in range(g.height):
-            v = V.get((i,j), 0)
+            v = V.get((i, j), 0)
             if v >= 0:
                 print(" |", "%.2f" %v, end="")
             else:

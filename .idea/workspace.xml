@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2e3aae-cec6-41f8-87da-3d13d34a0b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dm_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dm_control.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDPG_mujoco/ddpg_monitor/openaigym.video.0.50501.video000001.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDPG_mujoco/ddpg_monitor/openaigym.video.0.50501.video000008.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDPG_mujoco/ddpg_monitor/openaigym.video.0.50501.video000027.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/gridworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programmin_Gridworld/gridworld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_GridWorld.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarlo_Gridworld/Monte_Carlo_GridWorld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_funny_required_techniques/depickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_funny_required_techniques/depickle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_funny_required_techniques/pickle_tst.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_funny_required_techniques/pickle_tst.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="e972e0cc-9c7e-454b-b8eb-41a4f0a740a4" />
   <component name="ProjectId" id="1ZBAOX0zoRcxKejdaRGE2ZDXMGo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -255,7 +247,15 @@
       <workItem from="1591360722553" duration="599000" />
       <workItem from="1591568615480" duration="599000" />
       <workItem from="1591616867247" duration="599000" />
-      <workItem from="1591790339836" duration="1206000" />
+      <workItem from="1591790339836" duration="2781000" />
+      <workItem from="1591875797582" duration="599000" />
+      <workItem from="1591964318388" duration="599000" />
+      <workItem from="1592225404160" duration="599000" />
+      <workItem from="1592312091767" duration="599000" />
+      <workItem from="1592411323415" duration="599000" />
+      <workItem from="1592481067047" duration="599000" />
+      <workItem from="1592493986658" duration="599000" />
+      <workItem from="1592570119849" duration="629000" />
     </task>
     <servers />
   </component>

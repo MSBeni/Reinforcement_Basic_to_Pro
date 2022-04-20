@@ -43,7 +43,7 @@
       <recent name="$PROJECT_DIR$/tensorboard_Directory" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Monte_Carlo_GridWorld">
+  <component name="RunManager" selected="Python.PolicyGradient_TF">
     <configuration name="Monte_Carlo_GridWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ddpg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PolicyGradient_TF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,12 +74,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DDPG_mujoco" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Policy_Gradient" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DDPG_mujoco/ddpg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Policy_Gradient/PolicyGradient_TF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sarsa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dm_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,12 +118,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A2C_Atari" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A2C_Atari/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TemporalDifference_TD_GridWorld/sarsa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PolicyGradient_TF" />
+        <item itemvalue="Python.sarsa" />
         <item itemvalue="Python.Monte_Carlo_GridWorld" />
         <item itemvalue="Python.gridworld" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.ddpg" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +256,36 @@
       <workItem from="1592481067047" duration="599000" />
       <workItem from="1592493986658" duration="599000" />
       <workItem from="1592570119849" duration="629000" />
+      <workItem from="1592768516395" duration="599000" />
+      <workItem from="1592829569770" duration="599000" />
+      <workItem from="1592914268022" duration="599000" />
+      <workItem from="1592943535570" duration="599000" />
+      <workItem from="1593002127065" duration="599000" />
+      <workItem from="1593087828484" duration="577000" />
+      <workItem from="1593438915018" duration="599000" />
+      <workItem from="1593521618882" duration="599000" />
+      <workItem from="1593606606542" duration="672000" />
+      <workItem from="1593692380797" duration="599000" />
+      <workItem from="1593780233061" duration="565000" />
+      <workItem from="1593785026177" duration="545000" />
+      <workItem from="1593953513962" duration="624000" />
+      <workItem from="1594038198782" duration="599000" />
+      <workItem from="1594123583874" duration="810000" />
+      <workItem from="1594212652293" duration="599000" />
+      <workItem from="1594297066772" duration="599000" />
+      <workItem from="1594310716017" duration="599000" />
+      <workItem from="1594383505054" duration="2024000" />
+      <workItem from="1596661967159" duration="1359000" />
+      <workItem from="1596713962206" duration="1767000" />
+      <workItem from="1596752356888" duration="602000" />
+      <workItem from="1596802726116" duration="599000" />
+      <workItem from="1596905152534" duration="602000" />
+      <workItem from="1596979002921" duration="599000" />
+      <workItem from="1597063426522" duration="1217000" />
+      <workItem from="1597142415308" duration="599000" />
+      <workItem from="1598272987383" duration="642000" />
+      <workItem from="1604012985679" duration="43000" />
+      <workItem from="1604014957934" duration="39000" />
     </task>
     <servers />
   </component>
@@ -273,6 +303,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="190" key="GridCell.Tab.0.bottom" timestamp="1596723930072">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="190" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596723930072" />
+    <state width="1874" height="190" key="GridCell.Tab.0.center" timestamp="1596723930072">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="190" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596723930072" />
+    <state width="1874" height="190" key="GridCell.Tab.0.left" timestamp="1596723930071">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="190" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596723930071" />
+    <state width="1874" height="190" key="GridCell.Tab.0.right" timestamp="1596723930072">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="190" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596723930072" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,8 +354,8 @@
     <SUITE FILE_PATH="coverage/dm_control$Approx_SemiGradient_td0_prediction.coverage" NAME="Approx_SemiGradient_td0_prediction Coverage Results" MODIFIED="1587567231095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$Iterative_Policy_Evaluation.coverage" NAME="Iterative_Policy_Evaluation Coverage Results" MODIFIED="1587038520877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$random_search.coverage" NAME="random_search Coverage Results" MODIFIED="1587645274201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Gym_SingleAgent_Envs" />
-    <SUITE FILE_PATH="coverage/dm_control$PolicyGradient_TF.coverage" NAME="PolicyGradient_TF Coverage Results" MODIFIED="1587743938836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Policy_Gradient" />
     <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_GridWorld.coverage" NAME="Monte_Carlo_GridWorld Coverage Results" MODIFIED="1590759351326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
+    <SUITE FILE_PATH="coverage/dm_control$PolicyGradient_TF.coverage" NAME="PolicyGradient_TF Coverage Results" MODIFIED="1596723913942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Policy_Gradient" />
     <SUITE FILE_PATH="coverage/dm_control$Check_GPU_CPU.coverage" NAME="Check_GPU_CPU Coverage Results" MODIFIED="1586794442853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     <SUITE FILE_PATH="coverage/dm_control$MountainCar_Train.coverage" NAME="MountainCar_Train Coverage Results" MODIFIED="1586797090558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP_DQN_Mountain_Car" />
     <SUITE FILE_PATH="coverage/dm_control$DQ_MountainCar.coverage" NAME="DQ_MountainCar Coverage Results" MODIFIED="1586809912627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -316,7 +364,7 @@
     <SUITE FILE_PATH="coverage/dm_control$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1588537019991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A2C_Atari" />
     <SUITE FILE_PATH="coverage/dm_control$Approx_SemiGradient_SARSA_Control.coverage" NAME="Approx_SemiGradient_SARSA_Control Coverage Results" MODIFIED="1587586970153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model_Approximation_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$Monte_Carlo_Control.coverage" NAME="Monte_Carlo_Control Coverage Results" MODIFIED="1587153503990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo_Gridworld" />
-    <SUITE FILE_PATH="coverage/dm_control$sarsa.coverage" NAME="sarsa Coverage Results" MODIFIED="1587475812164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
+    <SUITE FILE_PATH="coverage/dm_control$sarsa.coverage" NAME="sarsa Coverage Results" MODIFIED="1594387691768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TemporalDifference_TD_GridWorld" />
     <SUITE FILE_PATH="coverage/dm_control$gridworld.coverage" NAME="gridworld Coverage Results" MODIFIED="1590758673062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programmin_Gridworld" />
     <SUITE FILE_PATH="coverage/dm_control$dqn_tf.coverage" NAME="dqn_tf Coverage Results" MODIFIED="1588016107772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN-Cartpole" />
     <SUITE FILE_PATH="coverage/dm_control$depickle.coverage" NAME="depickle Coverage Results" MODIFIED="1588524797138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_funny_required_techniques" />
